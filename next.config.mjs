@@ -1,10 +1,9 @@
-import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-        output: "export",
+    output: "export",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
 
 // export default withSentryConfig(nextConfig, {
 // // For all available options, see:
